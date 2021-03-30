@@ -12,7 +12,7 @@ AUTHOR ~AstroBryGuy~
 /* enable all error messages; nothing suppressed. comment this out for release version */
 // MODDER
 
-VERSION ~v1.3~
+VERSION ~v1.4 (jastey's edit with Russian version by Austin)~
 
 README ~chattyimoen/readme.html~
 
@@ -80,7 +80,11 @@ LANGUAGE ~Polski~
 	~polish~
 	~chattyimoen/tra/polish/setup.tra~
 	~chattyimoen/tra/polish/chattyimoen.tra~
-
+LANGUAGE ~Russian~
+	~russian~
+	~chattyimoen/tra/russian/setup.tra~
+	~chattyimoen/tra/russian/chattyimoen.tra~	
+	
 BEGIN @0 DESIGNATED 0 /* Chatty Imoen: Expanded Character Sounds */
   REQUIRE_PREDICATE GAME_IS ~bg1 totsc tutu tutu_totsc bgt bgee eet~ @1 /* You must have BG1, TotSC, Tutu, BGT, BGEE, or EET installed. */
 
